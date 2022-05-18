@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to my Online Resume!</title>
+        <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png">
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    </head>
+
+    <body>
+        <!--Header for Name, picture and Links-->
+        <header>
+            <img src="./assets/images/me.jpg" alt="My beautiful face">
+            <h1>John Medeiros</h1>
+            <ul>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </header>
+
+        <!--About Me Section-->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is John Medeiros and I have been programming for a few years already.
+                My background is in C, C++ and Java, but recently I have self-taught myself Javascript,
+                React and Python. Listed below are some of my favorite projects! Feel free to take a look.
+            </p>
+        </section>
+
+        <!--Large Flexbox section-->
+        <section class="flexbox" id="projects">
+            <a href="https://www.google.com">
+                <section class="card" id="bigCard">
+                    <header>Project Placeholder</header>
+                    <img src="./assets/images/placeholder.jpg" alt="First Project"/>
+                    <p>JSON API DESCRIPTION. THIS IS A DESCRIPTION OF MY JSON API. PLEASE IGNORE THIS PLACEHOLDER.</p>
+                </section>
+            </a>
+        </section>
+        
+        <!--Smaller Flexbox Section-->
+        <section class="flexbox container2">
+            <a href="https://www.google.com">
+            <section class="card smallCard">
+                <header>Project Placeholder 2</header>
+                <img src="./assets/images/placeholder.jpg" alt="Second Project"/>
+                <p>Second Description.</p>
+            </section>
+            </a>
+            <a href="https://www.google.com">
+            <section class="card smallCard">
+                <header>Project Placeholder 3</header>
+                <img src="./assets/images/placeholder.jpg" alt="Third Project"/>
+                <p>Third Description.</p>
+            </section>
+            </a>
+            <a href="https://www.google.com">
+            <section class="card smallCard">
+                <header>Project Placeholder 4</header>
+                <img src="./assets/images/placeholder.jpg" alt="Fourth Project"/>
+                <p>Fourth Description.</p>
+            </section>
+            </a>
+            <a href="https://www.google.com">
+            <section class="card smallCard">
+                <header>Project Placeholder 5</header>
+                <img src="./assets/images/placeholder.jpg" alt="Fifth Project"/>
+                <p>Fifth Description.</p>
+            </section>
+            </a>
+            <a href="https://www.google.com">
+            <section class="card smallCard">
+                <header>Project Placeholder 6</header>
+                <img src="./assets/images/placeholder.jpg" alt="Sixth Project"/>
+                <p>Sixth Description.</p>
+            </section>
+            </a>
+            <a href="https://www.google.com">
+            <section class="card smallCard">
+                <header>Project Placeholder 7</header>
+                <img src="./assets/images/placeholder.jpg" alt="Seventh Project"/>
+                <p>Seventh Description.</p>
+            </section>
+            </a>
+        </section>
+        
+        <!--Contact Me footer-->
+        <footer id="contact">
+            <form>
+                <h2>Contact Me!</h2>
+                <label for="fname">Contact Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="Email">Email</label><br>
+                <input type="text" id="Email" name="Email"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </footer>
+    </body>
+</html>
